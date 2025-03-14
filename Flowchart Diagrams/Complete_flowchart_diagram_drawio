@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="HoiszkOBOfD8GU6sf6ja">
+    <mxGraphModel dx="733" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="860" width="430" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="430" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-4" target="OB33ywML4Ri0NyG0yBlb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-4" value="Using python code, find the integral coordinates of this window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="415" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-5" value="Generate the coe files using the integral coordinates" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="425" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-8" target="OB33ywML4Ri0NyG0yBlb-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="390" />
+              <mxPoint x="250" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-9" value="Standardize image using python code (img_resizer) and start with a window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="331.25" width="110" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-12" target="OB33ywML4Ri0NyG0yBlb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-13" value="Input Image (RGB and any size)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="195" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-14" value="Pre Processing" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="265" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-15" value="Haar Function" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="265" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-16" target="OB33ywML4Ri0NyG0yBlb-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="695" />
+              <mxPoint x="475" y="695" />
+              <mxPoint x="475" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-17" value="Use stages.v file to run Haar function on window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-20" target="OB33ywML4Ri0NyG0yBlb-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-21" value="In this window, Decides if face is found or not and outputs boolean val" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="725" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-27" target="OB33ywML4Ri0NyG0yBlb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-27" value="Start" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="335" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-1" target="OB33ywML4Ri0NyG0yBlb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-39" target="OB33ywML4Ri0NyG0yBlb-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-40" value="Post Processing" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="265" y="870" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-41" target="OB33ywML4Ri0NyG0yBlb-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1060" />
+              <mxPoint x="110" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-41" target="OB33ywML4Ri0NyG0yBlb-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-44" value="Draw bounding box around face using saved coordinates" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="970" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-50" value="Face Detection result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-51" target="OB33ywML4Ri0NyG0yBlb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-52" value="If face found saves coordinates of bounding boxes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="935" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-63" value="(Implemented entirely on FPGA in verilog)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="575" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-64" value="(Should be implemented on host machine)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="875" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-65" value="(Should be implemented on host machine)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="285" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OB33ywML4Ri0NyG0yBlb-68" target="OB33ywML4Ri0NyG0yBlb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-68" value="Loads integral image coordinates of Haar features" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="630" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OB33ywML4Ri0NyG0yBlb-73" value="Update window" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1045" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
