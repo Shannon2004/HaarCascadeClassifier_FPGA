@@ -38,3 +38,6 @@ The Verilog implementation consists of multiple design files that collectively r
 - **`stage_test.v`**: A testbench designed to validate the functionality of the entire classifier architecture.
 
 This Verilog implementation serves as a prototype of the Haar Cascade classifier, typically consisting of 25 stages. However, the current design is implemented with three stages for demonstration and testing purposes.
+
+## Results
+For a more detailed explanation of the design files and their corresponding timing diagrams, please refer to the project report. The report also includes insights into floorplanning, resource utilization, and timing slack, providing a comprehensive analysis of the hardware implementation and performance metrics.
