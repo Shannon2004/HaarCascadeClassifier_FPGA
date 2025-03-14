@@ -26,3 +26,5 @@ The Verilog implementation of the Haar Cascade classifier relies on several COE 
 - **`int_img.coe`**: Stores the four integral image coordinates of one of the three regions in a Haar feature, along with its corresponding weight. This enables efficient feature computation in hardware.
 - **`weakclassifiers.coe`**: Contains feature thresholds along with the left and right node values of each weak classifier. These values determine the path taken by each feature evaluation during classification.
 - **`stage_info.coe`**: Specifies the starting address and the number of weak classifiers present in each stage. This information is crucial for controlling the sequential evaluation of Haar features through multiple stages in the classifier pipeline.
+
+These coe files are generated using the python files in python_to_coe folder
