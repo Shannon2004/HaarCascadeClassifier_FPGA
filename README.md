@@ -28,3 +28,13 @@ The Verilog implementation of the Haar Cascade classifier relies on several COE 
 - **`stage_info.coe`**: Specifies the starting address and the number of weak classifiers present in each stage. This information is crucial for controlling the sequential evaluation of Haar features through multiple stages in the classifier pipeline.
 
 These coe files are generated using the python files in python_to_coe folder
+
+### Design Files
+The Verilog implementation consists of multiple design files that collectively realize the Haar Cascade classifier in hardware. Each module performs a specific function in the classification pipeline:
+
+- **`WeakClassifier.v`**: Implements the computation of each weak classifier. This module takes the integral image coordinates and weights of the three regions forming a Haar feature and determines whether to return a left or right node value based on the computed feature value.
+- **`Haar_stages.v`**: Implements a single stage of the cascade classifier. It receives the starting address of the weak classifiers (from `weakclassifiers.coe`) and the number of weak classifiers in the stage as inputs. The module processes these classifiers sequentially and outputs a binary decision indicating whether the stage is passed. A three-state finite state machine (FSM) efficiently accumulates the classifier outputs and synchronizes the data flow.
+- **`Stages.v`**: Serves as the top-level module for stage processing. It takes a clock signal (`clk`) as input and produces the final Haar classification decision. The module employs a three-state FSM to track the progress of stage evaluations and outputs the final decision when all stages return a pass.
+- **`stage_test.v`**: A testbench designed to validate the functionality of the entire classifier architecture.
+
+This Verilog implementation serves as a prototype of the Haar Cascade classifier, typically consisting of 25 stages. However, the current design is implemented with three stages for demonstration and testing purposes.
